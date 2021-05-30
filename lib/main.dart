@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
     bringVegitable();
     return MaterialApp(
       themeMode: ThemeMode.light,
+
       theme: ThemeData(
         primarySwatch: Colors.purple,
-        primaryTextTheme: GoogleFonts.latoTextTheme(),
         fontFamily: GoogleFonts.openSans().fontFamily
         ),
       darkTheme: ThemeData(
